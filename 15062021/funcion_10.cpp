@@ -1,0 +1,30 @@
+/*Nombre del Programa:Areacircumferencia01.cpp
+Programador: Luis Ortiz
+Fecha de compilacion: 15/06/2021
+Version del programa: 0
+Descripcion: FUNCION QUE RECIBE DOS PARAMETROS Y RETORNA UN VALOR.
+LA FUNCIÓN AL MOMENTO DE RETORNAR EJECUTA DIRECTAMENTE EN LINEA LA EXPRESION
+QUE SE REQUIERE PARA CALCULAR LA MULTIPLICACION DE DOS NUMEROS Y RETORNA UN VALOR.
+LA IMPRESIÓN DE LA MULTIPLICACION  SE HACE DIRECTAMENTE EN EL PROGRAMA PRINCIPAL DENTRO DE LA INSTRUCCIÓN PRINTF
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <ctype.h>
+#include <math.h>
+
+float Multiplicacion(int, int);
+
+int  main()
+{
+float a=2, b=4;
+printf("\nLa multiplicacion de %.2f * %.2f es %.2f \n", a, b, Multiplicacion(a,b) );
+
+return 0;
+}
+
+float Multiplicacion(int x, int y) {
+  return x*y;
+}
