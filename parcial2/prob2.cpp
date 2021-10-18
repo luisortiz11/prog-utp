@@ -32,7 +32,7 @@ int  main()
     cont[3] += nano;
     cont[4] += yun;
     uno = 0, mega = 0, micro = 0, nano = 0, yun = 0;
-    
+
   }
 
   for (i = 0; i < 5; i++) {
